@@ -1,12 +1,12 @@
 #include <iostream>  
-  
 using namespace std;  
   
 class A  
 {  
     int x =5;  
     friend class B;           // friend class.  
-};  
+}; 
+ 
 class B  
 {  
   public:  
