@@ -21,7 +21,7 @@ class Dog:public Animal
 
 int main(void)
 {
-    Dog d1;
+    Dog d=new Dog();
     d1.eat();
 }
 /*OUTPUT:
